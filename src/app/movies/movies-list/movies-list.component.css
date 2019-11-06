@@ -1,0 +1,43 @@
+.poster img {
+  max-width: 100%;
+  margin-bottom: 0.625rem;
+  border-radius: 36px;
+  border: 2px solid rgba(141, 141, 141, 0.671);
+}
+
+.hover-effect:hover{
+  background-color: rgb(42, 42, 42);
+  opacity: 0.5;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.poster {
+  margin-bottom: 5rem;
+}
+
+.poster a:hover {
+  text-decoration: none;
+}
+
+.poster h3:hover {
+  color: rgb(51, 51, 51, 0.5)
+}
+
+.poster h3 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  text-align: left;
+  /* width: 18rem; */
+  margin-bottom: 0;
+}
+
+.poster h3 > span {
+  font-weight: normal;
+  font-size: 1rem;
+  text-align: left;
+  padding: 0
+}

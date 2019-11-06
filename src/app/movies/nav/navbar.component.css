@@ -1,0 +1,19 @@
+.navbar-brand {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 44px;
+  padding-right: 56px;
+  color: #FFFFFF;
+}
+
+.nav-item {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.nav-link{
+  color: #FFF !important ;
+}
+.nav-link:hover, .active > a{
+  color: #6AC045 !important ;
+}

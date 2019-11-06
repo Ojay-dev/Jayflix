@@ -1,0 +1,13 @@
+<div class="container" style="padding-top: 7rem">
+  <!-- <h1 id="header">Popular</h1> -->
+  <div class="row card-grid-container">
+    <div  *ngFor="let movie of movies" class="col-md-3 poster">
+      <a [routerLink]="['/movie', movie.id]">
+        <img src="{{movie?.large_cover_image}}" alt="" class="hover-effect">
+        <h3>{{movie?.title}} <br> <span>{{movie?.year}}</span></h3>
+      </a>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

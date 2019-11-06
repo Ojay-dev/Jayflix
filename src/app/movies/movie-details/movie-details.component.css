@@ -1,0 +1,19 @@
+.poster img {
+  max-width: 100%;
+  border-radius: 36px;
+  border: 2px solid rgba(141, 141, 141, 0.671);
+}
+
+.movie-detail h2 {
+  font-weight: normal;
+  font-size: 2.3rem;
+  line-height: 2.3rem;
+  margin-top: 1rem;
+  margin-bottom: .2rem;
+}
+
+.movie-detail p {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  margin-bottom: .2rem;
+}
