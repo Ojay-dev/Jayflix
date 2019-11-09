@@ -12,7 +12,7 @@ import {
   MovieResolver
 } from './movies';
 import { MovieService } from './shared';
-import { appRoutes } from './routes/routes';
+import { appRoutes } from './routes';
 import { Error404Component } from './errors/404.component';
 import { HttpClientModule } from '@angular/common/http';
 

@@ -1,4 +1,4 @@
-var movies = require('ngf-server/database/movies');
+var movies = require('../database/movies');
   // getNextId = require('./getNextId'),
   // url = require('url');
 

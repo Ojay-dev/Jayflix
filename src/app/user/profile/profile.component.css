@@ -1,0 +1,25 @@
+.profile-btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0.62rem;
+  margin: auto;
+  width: 50%;
+  flex-direction: row;
+}
+
+
+.button {
+  background-color: #6AC045;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+}

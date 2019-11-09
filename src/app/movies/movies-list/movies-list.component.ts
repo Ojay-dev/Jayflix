@@ -16,7 +16,8 @@ export class MoviesListComponent implements OnInit {
   }
 
   ngOnInit(){
-    this.movies = this.route.snapshot.data['movies']
+    this.movies = this.route.snapshot.data['movies'];
+    console.log(this.movies);
     // this.movieService.getMovies().subscribe({
     //   next: movies => this.movies = movies,
     //   error: error => this.errorMessage = error

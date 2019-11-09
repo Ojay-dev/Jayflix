@@ -1,0 +1,22 @@
+<div class="container">
+  <!-- <h1 id="signup-header">Login</h1> -->
+
+  <div  class="signup-form">
+    <form #loginForm="ngForm" (submit)="profile(loginForm.value)">
+      <!-- username -->
+      <label for="firstName">First Name</label>
+      <input (ngModel)="firstName" name="firstName" type="text" placeholder="FirstName">
+
+      <!-- Password -->
+      <label for="lastName">Last Name</label>
+      <input (ngModel)="lastName" name="lastName" type="text" placeholder="LastName">
+
+      <!-- Submit button -->
+      <div class="profile-btn">
+        <button type="submit" class="button">Save</button>
+        <button type="button" class="button" (click)="cancel()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+

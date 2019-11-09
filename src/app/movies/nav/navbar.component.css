@@ -17,3 +17,14 @@
 .nav-link:hover, .active > a{
   color: #6AC045 !important ;
 }
+
+[type="search"] {
+  border: 1px solid rgba(106, 192, 69, 0.62);
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #343a40;
+  color: #fff;
+}
+
+[type="search"]:focus { background-color: #343a40; }
+

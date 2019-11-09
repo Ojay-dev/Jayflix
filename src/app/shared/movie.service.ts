@@ -11,8 +11,8 @@ import { IMovie } from './model';
 export class MovieService {
   // private _moviesUrl:string = "https://yts.lt/api/v2/list_movies.json?quality=3D";
   // private _moviesUrl:string = "../../assets/api/movies.json";
+  // private _moviesUrl:string = "/api/movies";
   // private _moviesUrl:string = "https://raw.githubusercontent.com/Ojay-dev/Jayflix/master/src/assets/api/movies.json";
-  private _moviesUrl:string = "/api/movies";
 
   constructor(private _http:HttpClient) {
 
